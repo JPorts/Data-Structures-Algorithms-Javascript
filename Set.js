@@ -1,4 +1,6 @@
 /* Sets! */
+/*Author: Jordan Porter */
+/*Data Structures & Algorithms */
 
 function mySet(){
     // The var collection will hold the set
@@ -97,3 +99,17 @@ setB.add("d");
 
 console.log(setA.subset(setB));
 console.log(setA.intersection(setB).values());
+
+var setC = new Set();
+var setD = new Set(); 
+
+setC.add("a");
+setD.add("b");
+setD.add("a");
+setD.add("c");
+setD.add("d");
+
+console.log(setC.values());
+setD.delete("a");
+console.log(setD.has("a"));
+console.log(setD.add("d"));

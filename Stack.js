@@ -1,5 +1,6 @@
 /* Stacks ! */
-
+/*Author: Jordan Porter */
+/*Data Structures & Algorithms */
 // functions : push, pop, peek, length
 
 var letters = [];
